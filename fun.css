@@ -1,0 +1,75 @@
+div.container {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+h1 {
+    color: black;
+}
+
+div.square {
+    height: 50px;
+    width: 50px;
+    margin: 20%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    justify-content: center;
+}
+
+div.square:hover{
+    scale: 150%;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+div.square-container {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+div.button-container{
+    display:flex;
+    /*align-items: stretch;*/
+    align-content: space-between;
+    left: 50%;
+}
+
+button.btn {
+    background-color: rgb(255, 255, 255);
+    font-style: italic;
+    color: blue;
+    width: 400px;
+    height: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10%;
+}
+
+button:hover{
+    background-color: black;
+    font-weight: bold;
+    font-size: 110%;
+}
+
+button#play:hover{
+    color: green;
+}
+
+button#pause:hover{
+    color: red;
+}
+
+button#change:hover{
+    color: aqua;
+    background-color: black;
+}
+
+h1 {
+    color:whitesmoke;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+}
